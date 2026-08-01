@@ -1,9 +1,31 @@
 aid: pollinate
 name: Pollinate
-description: Pollinate is a company surfaced as a portfolio company of insight-partners, y-combinator
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Pollinate is a London-headquartered financial technology company that builds a
+  cloud-based, bank-grade digital experience platform helping banks and payment
+  processors reinvent merchant acquiring and value-added services for their small
+  and medium business (SMB) customers. The platform wraps around a bank's legacy
+  payment systems to deliver dynamic merchant onboarding, a bank-branded Merchant
+  Command Center dashboard (transaction reconciliation, dispute management,
+  statements, service discovery), integrated merchant services inside online
+  banking, and ISV enablement. Built on Microsoft Azure and open-banking ready, it
+  powers live bank deployments including Tyl by NatWest (UK), NAB Hive (Australia),
+  and Tyl by CIBC (Canada), with clients including Truist and partners including
+  Fiserv, Endava, and Dun & Bradstreet. Pollinate's APIs are private and
+  partner-facing; it does not publish a public developer portal or OpenAPI.
 url: https://raw.githubusercontent.com/api-evangelist/pollinate/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/65cc9097bff44e535356c127/661547af7d0418119eb586c5_favicon-32x32.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,11 +33,23 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Payments
+- Merchant Acquiring
+- Merchant Services
+- Banking
+- Fintech
+- SMB
+- Digital Experience Platform
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +57,17 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/pollinate-domain-security.yml
 - type: Website
-  url: https://www.pollinate.co.uk/
+  url: https://www.pollinate.global/
+- type: About
+  url: https://www.pollinate.global/about
+- type: Platform
+  url: https://www.pollinate.global/platform
+- type: PrivacyPolicy
+  url: https://www.pollinate.global/privacy-cookie-policy
+- type: TermsOfService
+  url: https://www.pollinate.global/terms-conditions
+- type: LinkedIn
+  url: https://uk.linkedin.com/company/pollinateint
