@@ -14,6 +14,17 @@ description: >-
   Fiserv, Endava, and Dun & Bradstreet. Pollinate's APIs are private and
   partner-facing; it does not publish a public developer portal or OpenAPI.
 url: https://raw.githubusercontent.com/api-evangelist/pollinate/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
